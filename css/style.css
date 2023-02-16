@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: rgb(27,0,75);
+  background: linear-gradient(90deg, rgba(27,0,75,1) 9%, rgba(76,0,125,1) 70%, rgba(76,0,125,1) 100%);  
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ============= Forms =========== */
+
+.forms {
+  position: relative;
+  top: 300px;
+}
+
+.forms .input1 {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.forms .input1:hover {
+  border-radius: 10em;
+}
+
+.forms .input2 {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.forms .input2:hover {
+  border-radius: 10em;
+}
+
+.forms .resultado {
+  position: relative;
+  top: 10px;
+  border: 0.5 solid #fff;
+  font-size: 1.3em;
+}
+
+.forms .mh1 {
+  position: relative;
+  top: -10px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+/* ============= Footer =========== */
+
+footer {
+  position: relative;
+  top: -25px;
+  color: blueviolet;
+}
